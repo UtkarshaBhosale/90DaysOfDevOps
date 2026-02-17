@@ -1,185 +1,156 @@
-# 🚀 90-Day Advanced DevOps Career Execution Blueprint
+# 🚀 90-Day DevOps Learning Plan
 
-> **Goal:** Transition from a mid-level DevOps Engineer to a
-> production-ready, highly skilled Cloud & Kubernetes DevOps Engineer in
-> 90 days.
+## 👨‍💻 Current Role
 
-------------------------------------------------------------------------
+I am a **DevOps Engineer** with **2+ years of hands-on experience** working with modern DevOps tools and cloud environments.
 
-## 👨‍💻 Current Level
+**Core experience includes:**
+- **Operating Systems:** Linux
+- **Version Control:** Git, GitHub
+- **CI/CD:** Pipeline creation and automation
+- **Cloud Platforms:** AWS and cloud-based infrastructure
+- **DevOps Workflows:** Build, deployment, and automation processes
 
--   💼 DevOps Engineer with **2+ years of professional experience**
--   🐧 Comfortable with Linux, Git, CI/CD, and basic cloud operations
--   🎯 Target: Become confident in **Kubernetes, Terraform, AWS
-    Architecture, and Production Troubleshooting**
+My objective is to advance to a **production-grade DevOps Engineer** capable of independently designing, deploying, automating, and troubleshooting scalable cloud-native systems.
 
-------------------------------------------------------------------------
+---
 
-## 🧠 DevOps + Cloud Philosophy
+## 🎯 Primary Learning Goals
 
-DevOps is about **automation, reliability, and faster delivery**.
+This 90-day plan focuses on strengthening expertise in the following critical DevOps domains:
 
-Cloud Engineering enables: - ☁️ Scalable infrastructure - 🔁 Automated
-deployments - 📈 High availability systems - 💰 Cost‑efficient
-operations
+### ☸️ Kubernetes and Container Orchestration
+- Deploy and manage applications in **Kubernetes clusters**
+- Configure **Services, Ingress, ConfigMaps, and Secrets**
+- Implement **autoscaling and resource optimization**
+- Perform **cluster and application troubleshooting**
 
-**My focus:** Build real-world, production-grade systems --- not just
-learn tools.
+### ☁️ Cloud Infrastructure and Automation
+- Design and deploy infrastructure using **AWS**
+- Provision infrastructure using **Terraform (Infrastructure as Code)**
+- Manage **IAM, networking, compute, and storage resources**
+- Implement **secure and scalable infrastructure**
 
-------------------------------------------------------------------------
+### ⚙️ CI/CD and Deployment Automation
+- Build complete **CI/CD pipelines**
+- Automate **application build, test, and deployment**
+- Integrate **Git, Docker, Kubernetes, and AWS**
+- Ensure **reliable and repeatable deployments**
 
-## 🎯 90-Day Execution Goals
+---
 
-### 🥇 Goal 1: Production Kubernetes Deployment
+## 🛠️ Core Tools and Technologies
 
--   Deploy microservice application
--   Configure ingress, autoscaling, and services
--   Implement production-grade configurations
+This learning plan focuses on mastering the following production-grade tools:
 
-### 🥈 Goal 2: End-to-End CI/CD Automation
+**Operating System**
+- Linux
 
--   Automate build, test, and deployment
--   Implement GitOps or pipeline-based deployment
--   Integrate Docker, Kubernetes, and Cloud
+**Containerization**
+- Docker
+- Kubernetes
 
-### 🥉 Goal 3: Production Troubleshooting Mastery
+**Cloud Platform**
+- AWS (EC2, IAM, VPC, S3)
 
--   Debug container failures
--   Fix Kubernetes cluster issues
--   Troubleshoot Linux and networking problems
+**Infrastructure as Code**
+- Terraform
 
-------------------------------------------------------------------------
+**CI/CD Tools**
+- GitHub Actions or Jenkins
 
-## 🛠️ Core Skills Focus
+**Version Control**
+- Git and GitHub
 
-### ☸️ Kubernetes Mastery
+**Monitoring and Troubleshooting**
+- Logs, metrics, and system debugging tools
 
--   Pods, Deployments, Services
--   Ingress, ConfigMaps, Secrets
--   Helm
--   Troubleshooting & debugging
-
-### ☁️ Cloud Infrastructure (AWS)
-
--   EC2, IAM, VPC, S3
--   Networking fundamentals
--   Security best practices
-
-### ⚙️ Infrastructure as Code & Automation
-
--   Terraform
--   CI/CD pipelines
--   GitHub Actions / Jenkins
-
-------------------------------------------------------------------------
+---
 
 ## ⏱️ Weekly Time Commitment
 
-  Day Type    Time             Total
-  ----------- ---------------- -----------------------
-  Weekdays    1--1.5 hrs × 5   5--7.5 hrs
-  Weekends    3--5 hrs × 2     6--10 hrs
-  **Total**                    **11--17.5 hrs/week**
+**Weekdays**
+- 1 to 1.5 hours per day
+- Total: 5 to 7.5 hours
 
-------------------------------------------------------------------------
+**Weekends**
+- 3 to 5 hours per day
+- Total: 6 to 10 hours
 
-## 📅 Daily Consistency Rules
+**Total Weekly Commitment**
+- 11 to 17.5 hours per week
 
--   ✅ Minimum 1 hour daily
--   ✅ Hands-on practice \> theory
--   ✅ Push code to GitHub
--   ✅ Track learning progress
--   ✅ Build real-world projects
--   ✅ Learn like it's a real job
+This schedule ensures consistent progress while balancing professional responsibilities.
 
-------------------------------------------------------------------------
+---
 
-## 📊 DevOps Production Architecture Diagram
+## 📅 Execution Strategy
 
-``` mermaid
-flowchart TB
+To ensure effective learning and real-world readiness, I will follow these principles:
 
-    Dev[👨‍💻 Developer] --> Git[📦 GitHub Repo]
+- Focus on **hands-on implementation**
+- Build and deploy **real-world applications**
+- Practice **daily without skipping**
+- Push all configurations and projects to **GitHub**
+- Learn **production-level troubleshooting**
+- Maintain consistency and discipline throughout the 90 days
 
-    Git --> CI[⚙️ CI Pipeline<br>Build & Test]
+---
 
-    CI --> Docker[🐳 Docker Build<br>Container Image]
+## 🔄 DevOps Workflow Focus
 
-    Docker --> Registry[📁 Container Registry]
+This plan focuses on mastering the complete DevOps lifecycle:
 
-    Registry --> CD[🚀 CD Pipeline]
+**Code → Version Control → CI/CD Pipeline → Containerization → Kubernetes Deployment → Cloud Infrastructure → Monitoring → Troubleshooting**
 
-    CD --> K8s[☸️ Kubernetes Cluster]
+---
 
-    K8s --> Pods[📦 Application Pods]
+## 📈 Learning Milestones
 
-    Pods --> Service[🔗 Kubernetes Service]
+### Phase 1: System and Container Foundation
+- Strengthen Linux troubleshooting skills
+- Build and optimize Docker containers
+- Debug container runtime issues
 
-    Service --> Ingress[🌐 Ingress Controller]
+### Phase 2: Cloud Infrastructure and Automation
+- Deploy infrastructure on AWS
+- Provision infrastructure using Terraform
+- Implement secure cloud configurations
 
-    Ingress --> LB[⚖️ Load Balancer]
+### Phase 3: Kubernetes Deployment and Management
+- Deploy applications on Kubernetes
+- Configure networking and ingress
+- Troubleshoot deployment and cluster issues
 
-    LB --> Users[👥 End Users]
+### Phase 4: CI/CD and Production Integration
+- Build end-to-end CI/CD pipelines
+- Automate deployments to Kubernetes
+- Implement complete production workflows
 
-    K8s --> Monitor[📊 Monitoring<br>Prometheus/Grafana]
+---
 
-    Monitor --> Dev
-```
+## 🏁 Expected Outcomes After 90 Days
 
-------------------------------------------------------------------------
+By completing this learning plan, I will be able to:
 
-## 📈 Progress Tracker Checklist
+- Deploy and manage applications using **Kubernetes**
+- Design and provision infrastructure using **Terraform**
+- Deploy and manage applications on **AWS**
+- Build and maintain complete **CI/CD pipelines**
+- Troubleshoot **production-level system and deployment issues**
+- Operate confidently as a **production-ready DevOps Engineer**
 
-### Phase 1: Foundation
-
--   [ ] Linux deep dive
--   [ ] Networking fundamentals
--   [ ] Docker mastery
-
-### Phase 2: Cloud & Infrastructure
-
--   [ ] AWS infrastructure setup
--   [ ] Terraform deployment
--   [ ] Secure cloud architecture
-
-### Phase 3: Kubernetes
-
--   [ ] Deploy applications
--   [ ] Configure ingress
--   [ ] Troubleshoot failures
-
-### Phase 4: CI/CD & Production
-
--   [ ] Build CI/CD pipelines
--   [ ] Automate deployments
--   [ ] Deploy production-grade project
-
-------------------------------------------------------------------------
-
-## 🧪 Final Outcome After 90 Days
-
-I will be able to:
-
--   ✅ Deploy production-grade applications
--   ✅ Design cloud infrastructure
--   ✅ Build CI/CD pipelines
--   ✅ Troubleshoot real production issues
--   ✅ Work confidently as an advanced DevOps Engineer
-
-------------------------------------------------------------------------
+---
 
 ## 🔥 Commitment Statement
 
-I commit to investing **11--17.5 hours every week for 90 days** to
-become a highly skilled DevOps Engineer.
+I commit to investing **11 to 17.5 hours per week** over the next **90 days** to strengthen my DevOps and Cloud engineering expertise.
 
-**Consistency. Hands-on practice. Real projects. Production mindset.**
+This plan prioritizes:
 
-------------------------------------------------------------------------
+- **Hands-on learning**
+- **Production readiness**
+- **Real-world implementation**
+- **Consistency and discipline**
 
-## 🏆 Target Role After Completion
-
--   Senior DevOps Engineer
--   Cloud DevOps Engineer
--   Kubernetes Engineer
--   Platform Engineer
+My goal is to reach the next level as a **highly capable, production-ready DevOps Engineer**.
